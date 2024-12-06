@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tela_de_login"
+    android:orientation="vertical"
+    tools:context=".view.Home">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="90dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editCadEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginBottom="35dp"
+            android:background="@drawable/rounded_edittext"
+            android:textColor="@color/black"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Email:" />
+
+        <EditText
+            android:id="@+id/editSenhaCad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="35dp"
+            android:background="@drawable/rounded_edittext"
+            android:textColor="@color/black"
+            android:ems="10"
+            android:inputType="numberPassword"
+            android:hint="Senha:"
+            />
+
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:backgroundTint="@color/orange"
+            android:textColor="@color/cofee"
+            android:gravity="center"
+            android:text="login" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:textColor="@color/red"
+            android:text="Crie seu cadastro, caso não tenha."
+            />
+
+        <Button
+            android:id="@+id/buttonCadastro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:backgroundTint="@color/orange"
+            android:textColor="@color/cofee"
+            android:gravity="center"
+            android:text="Cadastro" />
+,
+        <Button
+            android:id="@+id/buttonSuporte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            android:backgroundTint="@color/red"
+            android:textColor="@color/cofee"
+            android:gravity="center"
+            android:text="SAQ" />
+
+    </LinearLayout>
+
+</LinearLayout>

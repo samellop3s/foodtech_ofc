@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/backgroud_cadastro"
+    android:orientation="vertical"
+    tools:context=".view.Cadastro">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="52dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editCadNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="200dp"
+            android:layout_marginBottom="25dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:background="@drawable/rounded_edittext"
+            android:textColor="@color/black"
+            android:hint="Nome:"
+            />
+
+        <EditText
+            android:id="@+id/editCadEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="25dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:background="@drawable/rounded_edittext"
+            android:textColor="@color/black"
+            android:hint="Email:"
+            />
+
+        <EditText
+            android:id="@+id/editSenhaCad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="25dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:inputType="numberPassword"
+            android:background="@drawable/rounded_edittext"
+            android:textColor="@color/black"
+            android:hint="Senha:"
+            />
+
+        <EditText
+            android:id="@+id/editTelefoneCad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="25dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:inputType="phone|number"
+            android:background="@drawable/rounded_edittext"
+            android:textColor="@color/black"
+            android:hint="Telefone:"
+            />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="2dp"
+        android:text="Informações necessarias para o cadastro."
+        android:textColor="@color/red"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textDescView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="50dp"
+        android:text="certifique-se que as informações estão corretas."
+        android:textColor="@color/red"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btSalvaCad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="80dp"
+        android:backgroundTint="@color/orange"
+        android:gravity="center"
+        android:text="salvar" />
+
+</LinearLayout>
